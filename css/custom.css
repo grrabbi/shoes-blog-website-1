@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --primary-color: #21B573;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    background-color: #F0FFF0;
+    /* padding: 32px 0; */
+}
+.logo{
+    max-width: 176px;
+}
+
+
+a.nav-link.ms-sm-4 {
+    color: black;
+    text-decoration: none;
+    padding: 8px 20px;
+    display: inline-block;
+    transition-duration: 0.3s;
+    border-radius: 50px;
+    font-weight: 600;
+}
+
+.custom_btn,
+a.nav-link.ms-sm-4:hover {
+    border-radius: 50px;
+    color: #fff;
+    background-color: #ef9035;
+    text-decoration: none;
+    padding: 8px 20px;
+    display: inline-block;
+    transition-duration: 0.5s;
+}
+
+.carousel-caption{
+    bottom: 50% !important;
+    transform: translateY(50%);
+    z-index: 1;
+}
+
+.carousel-inner .carousel-item img{
+ 
+    aspect-ratio: 12/6;
+    object-fit: cover;
+    
+}
+.carousel-inner .carousel-item{
+    position: relative;
+}
+.carousel-inner .carousel-item::after{
+    content: "";
+    position: absolute;
+    background-color:#0000003b;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.carousel-indicators [data-bs-target]{    
+        width: 15px;
+        height: 17px;
+        border-radius: 65%;
+    
+}
+
+.card img{
+    aspect-ratio: 12/8;
+    object-fit: cover;
+}
+.custom_bg_1 {
+    aspect-ratio: 6/7;
+    background-image: url(../img/blog-2.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+
+}
+.custom_bg_2 {
+    aspect-ratio: 6/9;
+    background-image: url(../img/blog-5.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: left;
+    
+
+}
+
+.rooooo{
+    
+    flex-direction: column;
+   
+}
